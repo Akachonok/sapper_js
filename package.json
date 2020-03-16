@@ -1,0 +1,21 @@
+{
+  "name": "sapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "author": "Akachonok",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "0.12.7",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "3.10.2"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
